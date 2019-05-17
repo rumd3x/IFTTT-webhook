@@ -1,0 +1,21 @@
+{
+    "name": "rumd3x/ifttt-webhook",
+    "description": "Adapter for IFTTT webhook service",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rumd3x",
+            "email": "edmurcardoso@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rumd3x\\IFTTT\\": "src/"
+        }
+    },
+    "require": {
+        "rumd3x/notifier-interface": "^1.0",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
