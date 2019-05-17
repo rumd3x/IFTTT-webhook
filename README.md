@@ -11,7 +11,6 @@ composer require rumd3x/slack-notifier
 ## Usage
 ```php
 <?php
-<?php
 require 'vendor/autoload.php';
 
 use Rumd3x\IFTTT\Event;
