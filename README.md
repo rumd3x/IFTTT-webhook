@@ -45,15 +45,14 @@ $trigger = new Trigger('your-webhook-key');
 /**
  * Now call the notify method passing the event object
  * to the trigger object and get the response.
-**/
-$response = $trigger->notify($event);
-
-/**
+ *
  * You can optinally add a delay number in seconds
  * before the request is made
  *
  * Use any of the syntaxes below
 **/
+$response = $trigger->notify($event);
+
 $response = $trigger->withDelay(10)->notify($event);
 
 $trigger->withDelay(10);
