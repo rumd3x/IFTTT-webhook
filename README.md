@@ -5,7 +5,7 @@ This library is in compliance with Rumd3x Standards for notification services.
 
 ## Install
 ```
-composer require rumd3x/slack-notifier
+composer require rumd3x/ifttt-webhook
 ```
 
 ## Usage
